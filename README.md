@@ -45,6 +45,6 @@ The codes are organized by functionality and cover many tasks commonly encounter
 
 * ```HKS_Indexing_Library.py```.  Builds an inverse index of output from ```HKS_Library.py``` to enumerate suppressed finer-scale categorical values that _might_ be rolled into each suppression class.  The point of this is to demonstrate how difficult--if not impossible!--the suppression scheme has rendered the problem of trying to reverse-engineer the suppression classes to reveal "unsafe" values.
 
-#### Risk-Aware Aggregation
+### Risk-Aware Aggregation
 
 * ```FactorAggs_Library.py```.  Aggregation by demographic (or other categorical factors) and time.  Used to evaluate risks involved with slicing/dicing data by multiple factors.
